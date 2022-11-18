@@ -9,7 +9,7 @@ import { catchError, tap } from 'rxjs/operators';
 })
 export class BlogService {
 
-  private productUrl = 'https://putsreq.com/mRai6i7dkMblvaI0Yop0';
+  private productUrl = 'https://json-server-db-harshans279.herokuapp.com/users';
   constructor(private http: HttpClient) { }
 
   getBlogs(): Observable<Blog[]> {
